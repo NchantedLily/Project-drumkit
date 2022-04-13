@@ -14,7 +14,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: center;
   justify-content: center;
 }
@@ -22,15 +22,17 @@ body,html {
 .key {
   border: .4rem solid white;
   border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
+  margin: .5rem;
+  font-size: 35px;
   transition: all .07s ease;
-  width: 10rem;
+ padding: 1.5rem .5rem;
+  width: 23rem;
+  height: 15rem;
   text-align: center;
   color: pink;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem magenta;
+  
 }
 
 .playing {
@@ -41,11 +43,11 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #e624af;
@@ -54,16 +56,15 @@ kbd {
 .pink{
   color: #ff5dcc;
   text-align: center;
-  font-size: 94px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300px;
+  font-family: 'Kolker Brush', cursive;
   font-weight: 900;
   font-stretch: extra-expanded;
-  margin-top: 65px;
   text-emphasis:solid;
   text-emphasis-color: white;
   text-emphasis-style: bolder;
   text-emphasis-position: auto;
   text-shadow: #e624af;
-  
+  /* margin: 0;   */
   
 }
