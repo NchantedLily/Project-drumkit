@@ -1,7 +1,8 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('lilybackgroundimage.jpg') bottom center;
   background-size: cover;
+  opacity: 0.85;
 }
 
 body,html {
@@ -19,7 +20,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid white;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -27,14 +28,14 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
+  color: pink;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 .5rem magenta;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
+  border-color: #e624af;
   box-shadow: 0 0 1rem #ffc600;
 }
 
@@ -47,5 +48,22 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #e624af;
+}
+
+.pink{
+  color: #ff5dcc;
+  text-align: center;
+  font-size: 94px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-stretch: extra-expanded;
+  margin-top: 65px;
+  text-emphasis:solid;
+  text-emphasis-color: white;
+  text-emphasis-style: bolder;
+  text-emphasis-position: auto;
+  text-shadow: #e624af;
+  
+  
 }
