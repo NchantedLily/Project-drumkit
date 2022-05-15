@@ -4,6 +4,11 @@ html {
   background-size: cover;
   opacity: 0.85;
 }
+h1{
+  margin: 0px;
+  text-shadow: #e624af;
+  text-decoration-color: black;
+}
 
 body,html {
   margin: 0;
@@ -17,17 +22,20 @@ body,html {
   /* min-height: 100vh; */
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .key {
   border: .4rem solid white;
   border-radius: .5rem;
   margin: .5rem;
-  font-size: 35px;
+  font-size: 28px;
   transition: all .07s ease;
- padding: 1.5rem .5rem;
-  width: 23rem;
-  height: 15rem;
+ padding: 1.4rem .5rem;
+  width: 20rem;
+  height: 14rem;
   text-align: center;
   color: pink;
   background: rgba(0,0,0,0.4);
@@ -44,6 +52,7 @@ body,html {
 kbd {
   display: block;
   font-size: 7rem;
+  
 }
 
 .sound {
@@ -56,7 +65,7 @@ kbd {
 .pink{
   color: #ff5dcc;
   text-align: center;
-  font-size: 300px;
+  font-size: 175px;
   font-family: 'Kolker Brush', cursive;
   font-weight: 900;
   font-stretch: extra-expanded;
@@ -68,3 +77,34 @@ kbd {
   /* margin: 0;   */
   
 }
+
+
+/* Media breakpoints */
+@media (max-width: 1024px) { 
+  .keys{
+  font-size: 10px;
+  }
+  .key{
+    width: 8rem;
+  height: 14rem;
+  padding: 1.1rem .8rem;
+  }
+  .sound{
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 912px) {
+  .keys{
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+ 
+}
+
+
+
+
+
+
+/* End of Media breakpoints */
